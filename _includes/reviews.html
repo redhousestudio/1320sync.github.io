@@ -1,0 +1,19 @@
+<section class="rating-slider-section w-100 float-left">
+  <div class="container">
+    <div class="row">
+      <div class="col-12 text-center">
+        <h3 class="slider-title font-weight-bold pt-4">Average Rating Worldwide: 4, 6<span class="title-img pl-4 d-inline-block"><img src="/images/ReviewRatingWW.png" alt="icon"></span></h3>
+      </div>
+    </div>
+  </div>
+  <div class="multiple-items slider" data-sizes="100vw">
+    {% for review in site.data.reviews %}
+      <div class="text-center">
+        <img class="d-inline-block" src="/images/ReviewRating{{ review.stars }}.png" alt="slider-item-img"">
+        <p class="country-name mt-2 mb-3 font-weight-bold">{{ review.country }}</p>
+        <h4 class="mt-2 mb-3 font-weight-bold">{{ review.title }}</h4>
+        <p>{{ review.review }}</p>
+      </div>  
+    {% endfor %}
+  </div>
+</section>
