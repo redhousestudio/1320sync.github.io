@@ -80,6 +80,7 @@ body {
   background-image: url('/images/bg-home-section-info.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .top-section .iphone-section {
@@ -250,6 +251,11 @@ body {
   font-size: 22px;
   padding: 10px;
   width: 320px;
+}
+
+.support-main-section {
+  padding-top: 50px; 
+  padding-bottom: 50px; 
 }
 
 .support-main-section .title {
