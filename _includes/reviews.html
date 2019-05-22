@@ -7,12 +7,12 @@
     </div>
   </div>
   <div class="multiple-items slider" data-sizes="100vw">
-    {% for review in site.data.reviews %}
-      <div class="text-center">
+    {% for review in site.reviews %}
+      <div class="text-center review-item">
         <img class="d-inline-block" src="/images/ReviewRating{{ review.stars }}.png" alt="slider-item-img"">
         <p class="country-name mt-2 mb-3 font-weight-bold">{{ review.country }}</p>
         <h4 class="mt-2 mb-3 font-weight-bold">{{ review.title }}</h4>
-        <p>{{ review.review }}</p>
+        <p>{{ review.description }}</p>
       </div>  
     {% endfor %}
   </div>
