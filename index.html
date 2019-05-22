@@ -25,14 +25,14 @@ title: "Home"
 		<div class="two-col-section py-5 my-5">
 			<div class="container">
 				<div class="row">
-					<div class="col-12 col-md-6 pt-5 pt-sm-0">
+					<div class="col-12 col-md-6 pt-5 pr-4 pt-sm-0">
 						<div class="two-col-icon text-center mb-4 mb-md-5">
 							<img src="/images/MainCycles.png" alt="MainCycles-img">
 						</div>
 						<p class="two-col-text text-center text-sm-left">Natural time is measured in cycles. The Ancient Mayan People have described  the cycles of both the universe and nature around us and created a harmonic calendar that is synchronized to all those cycles.</p>
 						<p class="two-col-text text-center text-sm-left">The Tzolkin and 13 Moon Calendar is therefore less of a human invention, but more of a profound insight into the organizational tendencies within nature. Mayan cosmology developed this insight with great ingenuity and sophistication.</p>
 					</div>
-					<div class="col-12 col-md-6 mt-4 mt-md-0 pt-2 pt-md-0">
+					<div class="col-12 col-md-6 mt-4 mt-md-0 pt-2 pl-4 pt-md-0">
 						<div class="two-col-icon text-center mb-4 mb-md-5">
 							<img src="/images/MainGregCalendar.png" alt="MainGregCalendar-img">
 						</div>
@@ -56,30 +56,13 @@ title: "Home"
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-12 col-md-6 col-lg-4 my-4">
-						<h3 class="block-title font-weight-bold mb-3"><span class="block-title-icon d-inline-block mr-2"><img src="/images/IconFeatureCalendar.png" alt="icon"></span>Calendar</h3>	
-						<p>This is your main Mayan Dreamspell Calendar Dashboard with all the details you need to stay in sync. Calculate the Kin for any date.</p>	
-					</div>
-					<div class="col-12 col-md-6 col-lg-4 my-4">
-						<h3 class="block-title font-weight-bold mb-3"><span class="block-title-icon d-inline-block mr-2"><img src="/images/IconFeatureNotes.png" alt="icon"></span>Notes</h3>	
-						<p>This is your main Mayan Dreamspell Calendar Dashboard with all the details you need to stay in sync. Calculate the Kin for any date.</p>		
-					</div>
-					<div class="col-12 col-md-6 col-lg-4 my-4">
-						<h3 class="block-title font-weight-bold mb-3"><span class="block-title-icon d-inline-block mr-2"><img src="/images/IconFeatureKinPicker.png" alt="icon"></span>Kin Picker</h3>	
-						<p>This is your main Mayan Dreamspell Calendar Dashboard with all the details you need to stay in sync. Calculate the Kin for any date.</p>		
-					</div>
-					<div class="col-12 col-md-6 col-lg-4 my-4">
-						<h3 class="block-title font-weight-bold mb-3"><span class="block-title-icon d-inline-block mr-2"><img src="/images/IconFeatureContacts.png" alt="icon"></span>Contacts</h3>	
-						<p>This is your main Mayan Dreamspell Calendar Dashboard with all the details you need to stay in sync. Calculate the Kin for any date.</p>		
-					</div>
-					<div class="col-12 col-md-6 col-lg-4 my-4">
-						<h3 class="block-title font-weight-bold mb-3"><span class="block-title-icon d-inline-block mr-2"><img src="/images/IconFeatureInfo.png" alt="icon"></span>Information</h3>	
-						<p>This is your main Mayan Dreamspell Calendar Dashboard with all the details you need to stay in sync. Calculate the Kin for any date.</p>		
-					</div>
-					<div class="col-12 col-md-6 col-lg-4 my-4">
-						<h3 class="block-title font-weight-bold mb-3"><span class="block-title-icon d-inline-block mr-2"><img src="/images/IconFeatureMayaConnections.png" alt="icon"></span>Connections</h3>	
-						<p>This is your main Mayan Dreamspell Calendar Dashboard with all the details you need to stay in sync. Calculate the Kin for any date.</p>		
-					</div>
+					{% assign features_sorted = site.features | sort: "weight" %}
+					{% for feature in features_sorted %}
+						<div class="col-12 col-md-6 col-lg-4 my-4">
+							<h3 class="block-title font-weight-bold mb-3"><span class="block-title-icon d-inline-block mr-2"><img src="{{ feature.icon }}" alt="{{ feature.icon_alt_text }}"></span>{{ feature.title }}</h3>	
+							<p>{{ feature.description }}</p>
+						</div>
+					{% endfor %}
 				</div>
 			</div>
 		</div>
