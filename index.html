@@ -10,7 +10,7 @@ title: "Home"
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
-						<h1 class="iphone-title text-center mt-3 mt-md-4 mt-lg-5 mb-4">Put the Dreamspell Calendar in your pocket!</h1>					
+						<h1 class="iphone-title text-center mt-3 mt-md-4 mt-lg-5 mb-4">Put the Dreamspell Calendar in your pocket</h1>					
 					</div>
 					<div id="iphone-video">
 						<video class="i-video" width="158" height="280" loop autoplay style="object-fit: fill;">
@@ -22,6 +22,8 @@ title: "Home"
 				</div>
 			</div>
 		</div>
+
+
 		<div class="two-col-section py-5 my-5">
 			<div class="container">
 				<div class="row">
@@ -36,8 +38,9 @@ title: "Home"
 						<div class="two-col-icon text-center mb-4 mb-md-5">
 							<img src="/images/MainGregCalendar.png" alt="MainGregCalendar-img">
 						</div>
-						<p class="two-col-text text-center text-sm-left">Our Gregorian calendar is not synchronized to the natural cycles and thus not aware. The 13 Moon-28-day calendar is a simple tool that helps us to raise our frequency and gives us a new lens to view both our day-to-day and planetary events. It can help you get a stronger connection with the cycles of the cosmic organization of time.</p>
-						<p class="two-col-text text-center text-sm-left">All this is explained carefully in more than 15.000 words and 37 pages!</p>
+						<p class="two-col-text text-center text-sm-left">Our irregular Gregorian calendar is not synchronized to the natural cycles and thus not aware.</p>
+						<p class="two-col-text text-center text-sm-left">Learn how the Mayans connected their calendar to the cosmic cycles and infused it with all their indigenous wisdom. You will understand how time actually should be experienced: in harmony with nature around us.</p>
+						<p class="two-col-text text-center text-sm-left">The 13 Moon-28-day calendar is a simple tool that helps us to raise our frequency and gives us a new lens to view both our day-to-day and planetary events.</p>
 					</div>
 					<div class="col-12">
 						<h1 class="two-col-bottom-message text-center mt-4 mt-md-5">In the New Time, synchronicity is the norm.</h1>
@@ -45,21 +48,23 @@ title: "Home"
 				</div>
 			</div>
 		</div>
+
+
 		<div class="features-to-explore-section mb-5 pb-4">
 			<div class="container">
 				<div class="row">
 					<div class="col-12">
-						<h1 class="features-title font-weight-bold text-center mb-5">Features to Explore the Cycles</h1>
 						<div class="features-img-wrapper text-center mb-5">
 							<img src="/images/FeatureScreenshots.png" alt="features-img" width="100%">
 						</div>
+						<h1 class="features-title font-weight-bold text-center mb-5">Many features to explore the cycles</h1>
 					</div>
 				</div>
 				<div class="row">
 					{% assign features_sorted = site.features | sort: "weight" %}
 					{% for feature in features_sorted %}
 						<div class="col-12 col-md-6 col-lg-4 my-4">
-							<h3 class="block-title font-weight-bold mb-3"><span class="block-title-icon d-inline-block mr-2"><img src="{{ feature.icon }}" alt="{{ feature.icon_alt_text }}"></span>{{ feature.title }}</h3>	
+							<h3 class="block-title font-weight-bold mb-3"><span class="block-title-icon d-inline-block mr-2"><img src="{{ feature.icon }}" alt="{{ feature.icon_alt_text }}"></span>{{ feature.title }}</h3>
 							<p>{{ feature.description }}</p>
 						</div>
 					{% endfor %}
@@ -68,11 +73,12 @@ title: "Home"
 		</div>
 	</section>
 
+
 	<section class="message-section float-left w-100 py-5">
 		<div class="container">
 			<div class="row">
 				<div class="col-12 text-center">
-					<h3 class="message-title font-weight-bold my-4">
+					<h3 class="message-title my-4">
 						<span class="d-block">Tell me, and I will forget.</span>
 						<span class="d-block">Show me, and I may remember.</span>
 						<span class="d-block">Involve me, and I will understand.</span>
@@ -83,20 +89,25 @@ title: "Home"
 		</div>
 	</section>
 
+
+	{% include reviews.html %}
+
+	{% include social-section.html %}
+
+
 	<section class="international-section float-left w-100 text-center pb-5">
 		<div class="container">
 			<div class="row">
 				<div class="col-12">
 					<h3 class="inter-title font-weight-bold mb-1 pt-3 mt-3"><span class="inter-title-icon d-inline-block mr-2"><img src="/images/IconInt.png" alt="icon"></span>International</h3>
 					<p class="inter-text py-4"><span class="d-block">The app is available in:</span>English, Bulgarian, French, German, Italian, Japanese, Portuguese, Russian, Simp.Chinese, Spanish.</p>
-					<img src="/images/CountryFlags.png" alt="flags-img" width="100%">
+					<img src="/images/CountryFlags.png" alt="flags-img" width="786">
 					<p class="inter-text pb-3 mb-4">This app is a joint venture, most translations have been contributed by happy users of the app.</br>Could you help getting this knowledge in as many languages as possible?</p>
-					<a href="#" target="_blank" class="btn btn-primary font-weight-bold mb-4">I can help</a>
+					<a href="https://spreadsheets.google.com/viewform?formkey=dEJTOXBEVVM5ODZyOFVFa004dmtLSGc6MQ" target="_blank" class="btn btn-primary font-weight-bold mb-4">I can help</a>
 				</div>
 			</div>
 		</div>
 	</section>
 
-	{% include reviews.html %}
 
 	

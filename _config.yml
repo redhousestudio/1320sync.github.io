@@ -6,7 +6,8 @@ name                     : ""
 description              : ""
 url                      : # the base hostname & protocol for your site e.g. "https://fatah.co"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g.
+repository               : 'redhousestudio/1320sync.github.io'
+destination              : '../1320syncwebsite'
 markdown: kramdown
 plugins:
   - jekyll-feed

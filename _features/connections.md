@@ -2,7 +2,8 @@
 weight: 60
 icon: "/images/IconFeatureMayaConnections.png"
 icon_alt_text: "13:20:Sync iPhone App Feature : Connections"
+screenshots: "/images/FeatureCalendarScreenshot.png"
 title: Connections
-description: This is your main Mayan Dreamspell Calendar Dashboard with all the details you need to stay in sync. Calculate the Kin for any date.
-
+description: >
+  <p>Now there is an extra section where you can <strong>learn more from a list of trusted teachers and websites</strong>. You can visit their website or get in touch to learn more. This will grow over time onto a connected web of Galactivated people.</p>
 ---

@@ -23,15 +23,15 @@ body {
 }
 
 .container {
-  max-width: 850px;
+  max-width: 950px;
 }
 
 .navbar {
-  background-color: #fafafa;
+  background-color: #E7E9E6;
 }
 
 .navbar .navbar-brand {
-  color: #000;
+  color: #545d51;
   font-family: 'Lucida Handwriting';
   font-size: 28px;
 }
@@ -42,8 +42,12 @@ body {
 }
 
 .navbar .navbar-nav .nav-item .nav-link {
-  color: #000;
+  color: #545d51;
   font-size: 20px;
+}
+
+.navbar .navbar-nav .nav-item .nav-link:hover {
+  color: #f5a623;
 }
 
 .navbar .app-btn-top {
@@ -114,17 +118,23 @@ body {
 }
 
 .top-section .features-to-explore-section .features-title {
-  font-size: 36px;
+  font-size: 28px;
+  color: #545d51;
 }
 
 .top-section .features-to-explore-section .features-img-wrapper img {
   max-width: 699px;
 }
 
-.top-section .features-to-explore-section .block-title .block-title-icon {
+.top-section .features-to-explore-section .block-title-icon {
   margin-top: -3px;
   vertical-align: top;
 }
+
+.top-section .features-to-explore-section .block-title {
+  color: #545d51;
+}
+
 
 #iphone-video {
   background-image: url("/images/bg-home-section-top-all-moblie.png");
@@ -142,44 +152,58 @@ body {
   top: 47px;
 }
 
+
+/* --- */
 .message-section {
-  background-image: url('/images/border-bottom-shadow.png');
-  background-position: top center;
-  background-repeat: repeat-x;
+  background-color: #E3E6E2;
 }
 
 .message-section .message-title {
   line-height: 1.4;
+  font-weight: bold;
 }
 
 .message-section .message-text {
-  font-size: 18px;
+  font-size: 12px;
 }
 
+
+/* --- */
 .international-section {
   background-image: url('/images/bg-home-section-international.png');
   background-repeat: no-repeat;
   background-size: cover;
 }
 
-.international-section:before {
-  background-image: url('/images/border-top-shadow.png');
-  background-repeat: repeat-x;
-  content: "";
-  display: inline-block;
-  height: 30px;
-  margin-top: -30px;
-  width: 100%;
+.international-section .inter-title .inter-title-icon {
+  margin-top: -3px;
+  vertical-align: top;
 }
 
+.international-section .inter-text {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.international-section .btn {
+  background-color: #fafafa;
+  border-color: #545d51;
+  border-radius: 15px;
+  color: #545d51;
+  font-size: 22px;
+  padding: 10px;
+  width: 320px;
+}
+
+/* --- */
 .rating-slider-section {
-  background-image: url('/images/border-top-shadow.png');
+  background-image: url('/images/border-bottom-shadow.png');
   background-position: bottom center;
   background-repeat: repeat-x;
 }
 
 .rating-slider-section:before {
-  background-image: url('/images/border-bottom-shadow.png');
+  background-image: url('/images/border-top-shadow.png');
   background-repeat: repeat-x;
   content: "";
   display: inline-block;
@@ -195,7 +219,7 @@ body {
 
 .rating-slider-section .slider {
   margin: 50px auto;
-  max-width: 1140px;
+  max-width: 950px;
   width: 100%;
 }
 
@@ -233,26 +257,8 @@ body {
   font-size: 16px;
 }
 
-.international-section .inter-title .inter-title-icon {
-  margin-top: -3px;
-  vertical-align: top;
-}
 
-.international-section .inter-text {
-  font-size: 18px;
-  line-height: 1.4;
-}
-
-.international-section .btn {
-  background-color: #fafafa;
-  border-color: #545d51;
-  border-radius: 15px;
-  color: #545d51;
-  font-size: 22px;
-  padding: 10px;
-  width: 320px;
-}
-
+/* --- */
 .support-main-section {
   padding-top: 50px; 
   padding-bottom: 50px; 
@@ -263,17 +269,21 @@ body {
 }
 
 .support-main-section .text {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .support-main-section .text .link {
-  color: #f5a623;
+ text-decoration: underline;
+ color: #B57D21;
 }
 
 .support-main-section .text .link:hover {
   text-decoration: none;
+ color: #f5a623;
 }
 
+
+/* --- */
 .social-section {
   background-image: url('/images/bg-home-section-socials.png');
   background-repeat: no-repeat;
@@ -289,6 +299,8 @@ body {
   text-decoration: underline;
 }
 
+
+/* --- */
 .footer {
   padding: 60px 0 90px;
 }
