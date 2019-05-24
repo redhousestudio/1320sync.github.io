@@ -97,7 +97,7 @@ body {
 }
 
 .top-section .iphone-section .iphone-title {
-  font-family: 'Lucida Handwriting';
+  font-family: 'Kalam', cursive;
   font-size: 36px;
 }
 
@@ -106,6 +106,8 @@ body {
   margin: 0 auto;
 }
 
+
+/* --- */
 .top-section .two-col-section .two-col-text {
   color: #545d51;
   font-size: 20px;
@@ -113,10 +115,15 @@ body {
 }
 
 .top-section .two-col-section .two-col-bottom-message {
-  font-family: 'Lucida Handwriting';
+  font-family: 'Kalam', cursive;
   font-size: 40px;
 }
+.top-section .two-col-section .two-col-bottom-subtext {
+    font-size: 13px;
+}
 
+
+/* --- */
 .top-section .features-to-explore-section {
   font-size: 17px;
   color: #545d51;
@@ -124,7 +131,6 @@ body {
 
 .top-section .features-to-explore-section .features-title {
   font-size: 28px;
-  color: #545d51;
 }
 
 .top-section .features-to-explore-section .features-img-wrapper img {
@@ -402,9 +408,6 @@ iframe {
     left: 19px;
   }
 
-  .top-section .two-col-section .two-col-bottom-message {
-    font-size: 24px;
-  }
 
   .international-section .btn {
     width: 100%;
