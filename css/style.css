@@ -117,6 +117,11 @@ body {
   font-size: 40px;
 }
 
+.top-section .features-to-explore-section {
+  font-size: 17px;
+  color: #545d51;
+}
+
 .top-section .features-to-explore-section .features-title {
   font-size: 28px;
   color: #545d51;
