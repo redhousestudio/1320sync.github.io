@@ -1,5 +1,5 @@
 ---
-weight: 50
+weight: 30
 icon: "/images/IconFeatureInfo.png"
 icon_alt_text: "13:20:Sync iPhone App Feature : Information"
 screenshots: "/images/FeatureCalendarScreenshot.png"
