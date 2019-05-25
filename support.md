@@ -1,6 +1,7 @@
 ---
 title: "Support"
 layout: support
+permalink: /support/
 ---
 <section class="support-main-section">
 	<div class="container">
