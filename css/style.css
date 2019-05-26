@@ -192,6 +192,7 @@ body {
   background-image: url('/images/bg-home-section-international.png');
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .international-section .inter-title .inter-title-icon {
