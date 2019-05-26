@@ -4,7 +4,7 @@ title                    : "1320 Sync"
 title_separator          : "|"
 name                     : ""
 description              : ""
-url                      : # the base hostname & protocol for your site e.g. "https://fatah.co"
+url                      : "https://www.1320sync.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : 'redhousestudio/1320sync.github.io'
 destination              : '../1320syncwebsite'
