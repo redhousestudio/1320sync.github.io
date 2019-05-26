@@ -140,7 +140,7 @@ body {
 }
 
 .top-section .features-to-explore-section .features-img-wrapper img {
-  max-width: 699px;
+  max-width: 696px;
 }
 
 .top-section .features-to-explore-section .block-title-icon {
@@ -202,6 +202,10 @@ body {
 .international-section .inter-text {
   font-size: 20px;
   line-height: 1.4;
+}
+
+.international-section .image {
+  max-width: 786px;
 }
 
 .international-section .btn {
@@ -378,9 +382,6 @@ iframe {
     height: 435px;
   }
 
-  .international-section .image {
-    width: 100%;
-  }
 }
 
 @media (max-width: 575px) {
