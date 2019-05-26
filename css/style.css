@@ -207,7 +207,7 @@ body {
 .international-section .btn {
   background-color: #fafafa;
   border-color: #545d51;
-  border-radius: 15px;
+  border-radius: 8px;
   color: #545d51;
   font-size: 22px;
   padding: 10px;
@@ -217,11 +217,7 @@ body {
 .international-section .btn:hover {
   background-color: #fafafa;
   border-color: #f5a623;
-  border-radius: 15px;
   color: #f5a623;
-  font-size: 22px;
-  padding: 10px;
-  width: 320px;
 }
 
 /* --- */
