@@ -109,7 +109,7 @@ body {
 
 /* --- */
 .top-section .two-col-section {
-  margin-top: 800px;
+  margin-top: 100px !important;
 }
 
 .top-section .two-col-section .two-col-text {
