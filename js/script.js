@@ -35,7 +35,7 @@ $(document).on('ready', function() {
   $('.multiple-items').slick({
     arrows: true,
     autoplay: true,
-    autoplaySpeed: 5000,
+    autoplaySpeed: 7000,
     infinite: true,
     slidesToShow: 3,
     slidesToScroll: 3,

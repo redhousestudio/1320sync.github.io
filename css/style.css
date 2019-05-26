@@ -176,13 +176,13 @@ body {
 }
 
 .message-section .message-title {
-  color: #FAFAFA;
+  color: #E5E6E5;
   line-height: 1.4;
   font-weight: bold;
 }
 
 .message-section .message-text {
-  color: #FAFAFA;
+  color: #E5E6E5;
   font-size: 12px;
 }
 
