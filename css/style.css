@@ -51,8 +51,7 @@ body {
 }
 
 .navbar .navbar-nav .nav-item .nav-link.active {
-  color: #6C6E6B;
-  text-decoration: underline;
+  color: #A2A99E;
 }
 
 .navbar .app-btn-top {
