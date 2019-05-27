@@ -170,7 +170,7 @@ body {
 #iphone-video .i-video {
   left: 171px;
   position: absolute;
-  top: 47px;
+  top: 45px;
 }
 
 
@@ -180,6 +180,7 @@ body {
 }
 
 .message-section .message-title {
+  font-family: 'Lora', cursive;
   color: #EFF2EF;
   line-height: 1.4;
   font-weight: bold;
@@ -199,14 +200,19 @@ body {
   background-position: center;
 }
 
+.international-section .inter-title {
+  margin-top: 70px !important;
+}
+
 .international-section .inter-title .inter-title-icon {
   margin-top: -3px;
   vertical-align: top;
 }
 
 .international-section .inter-text {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.4;
+  margin-top: 30px;
 }
 
 .international-section .image {
@@ -224,7 +230,6 @@ body {
 }
 
 .international-section .btn:hover {
-  background-color: #fafafa;
   border-color: #f5a623;
   color: #f5a623;
 }
@@ -418,6 +423,10 @@ iframe {
 
   #iphone-video .i-video {
     left: 19px;
+  }
+
+  .message-section .message-title {
+    font-size: 24px;
   }
 
   .footer {
