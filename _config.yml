@@ -1,9 +1,9 @@
 # Site Settings
 locale                   : "en-US"
-title                    : "1320 Sync"
+title                    : "13:20:Sync"
 title_separator          : "|"
-name                     : ""
-description              : "Mayan Dreamspell Calendar app"
+name                     : "13:20:Sync"
+description              : "This app provides a simple way to sync along the cosmic cycles, to raise our frequency and give us a new lens to view both our day-to-day and planetary events."
 url                      : "www.1320sync.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : ""
