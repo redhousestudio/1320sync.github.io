@@ -96,7 +96,7 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 443px;
+  height: 463px;
   padding-bottom: 10px;
 }
 
@@ -105,9 +105,20 @@ body {
   font-size: 40px;
 }
 
-.top-section .iphone-section .iphone-img {
-  height: 119%;
+#iphone-video {
+  background-image: url("/images/bg-home-section-top-all-mobile.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 382px;
   margin: 0 auto;
+  position: relative;
+  width: 502px;
+}
+
+#iphone-video .i-video {
+  left: 172px;
+  position: absolute;
+  top: 46px;
 }
 
 
@@ -154,23 +165,6 @@ body {
 
 .top-section .features-to-explore-section .block-title {
   color: #545d51;
-}
-
-
-#iphone-video {
-  background-image: url("/images/bg-home-section-top-all-moblie.png");
-  background-repeat: no-repeat;
-  background-size: 100%;
-  height: 382px;
-  margin: 0 auto;
-  position: relative;
-  width: 500px;
-}
-
-#iphone-video .i-video {
-  left: 171px;
-  position: absolute;
-  top: 45px;
 }
 
 
@@ -320,6 +314,7 @@ body {
 .social-section .social-title {
   font-size: 20px;
   color: #545d51;
+  margin-top: 20px;
 }
 .social-section .social-title:hover {
   color: #545d51;
@@ -357,9 +352,9 @@ iframe {
 }
 
 @media (max-width: 991px) {
-  .top-section .iphone-section .iphone-title {
+/*  .top-section .iphone-section .iphone-title {
     font-size: 36px;
-  }
+  }*/
 }
 
 @media (max-width: 767px) {
