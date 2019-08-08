@@ -55,6 +55,7 @@ body {
 }
 
 .navbar .app-btn-top {
+
   display: inline-block;
   position: relative;
 }
@@ -167,6 +168,22 @@ body {
   color: #545d51;
 }
 
+.top-section .features-to-explore-section .app-btn-top {
+  display: inline-block;
+  position: relative;
+}
+
+.top-section .features-to-explore-section .app-btn-top-hover {
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 99;
+}
+
+.top-section .features-to-explore-section .app-btn-top:hover .app-btn-top-hover {
+  display: inline;
+}
 
 /* --- */
 .message-section {
@@ -304,6 +321,23 @@ body {
  color: #f5a623;
 }
 
+.support-main-section .app-btn-top {
+  display: inline-block;
+  position: relative;
+}
+
+.support-main-section .app-btn-top-hover {
+  display: none;
+  left: 0;
+  position: absolute;
+  top: 0;
+  z-index: 99;
+}
+
+.support-main-section .app-btn-top:hover .app-btn-top-hover {
+  display: inline;
+}
+
 
 /* --- */
 .social-section {
@@ -428,5 +462,9 @@ iframe {
   .footer {
     padding: 40px 0;
   }
+
+  .top-section .features-to-explore-section .features-img-wrapper img {
+  max-width: 100%;
+}
 }
 /* ----- Media Query End----- */
