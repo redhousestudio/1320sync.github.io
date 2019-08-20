@@ -3,6 +3,7 @@ title: "Support"
 layout: support
 permalink: /support/
 ---
+
 <section class="support-main-section">
 	<div class="container">
 		<div class="row">
@@ -18,6 +19,13 @@ permalink: /support/
 			</div>
 		</div>
 		<div class="row">
+			<div class="col-12">
+				<p>&nbsp;</p>
+				<p>&nbsp;</p>
+				<h3 class="title font-weight-bold mb-3">Version History - iPad</h3>
+				<iframe src="/updateinfoipad.html" style="border: 1px green solid; border-color: #545d51; border-radius: 7px; overflow:hidden; width:120%; height:100px;"></iframe>
+			</div>
+		</div>		<div class="row">
 			<div class="col-12">
 				<div class="features-img-wrapper text-center mb-5">
 					<p>&nbsp;</p>
