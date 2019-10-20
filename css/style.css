@@ -195,6 +195,7 @@ body {
   color: #EFF2EF;
   line-height: 1.4;
   font-weight: bold;
+  font-size: 24px;
 }
 
 .message-section .message-text {
@@ -453,10 +454,6 @@ iframe {
 
   #iphone-video .i-video {
     left: 19px;
-  }
-
-  .message-section .message-title {
-    font-size: 24px;
   }
 
   .footer {
