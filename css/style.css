@@ -353,7 +353,7 @@ body {
   margin-top: 20px;
 }
 .social-section .social-title:hover {
-  color: #545d51;
+  color: #f5a623;
   text-decoration: underline;
 }
 
@@ -369,7 +369,11 @@ body {
 }
 
 .footer .f-text {
-  font-size: 14px;
+  font-size: 16px;
+}
+
+.footer .f-text:hover {
+  color: #f5a623;
 }
 
 iframe {
