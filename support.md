@@ -14,7 +14,6 @@ permalink: /support/
 				<h3 class="title font-weight-bold mb-3">Version History - iPhone</h3>
 				<p class="text mb-4">We are proud to say this app was <strong>first released on 3 aug 2010</strong> and is stil frequently updated with new features and fixes.<br />Here's the full list:</p>
 				<iframe src="/updateinfo.html" style="border: 1px green solid; border-color: #545d51; border-radius: 7px; overflow:hidden; width:100%; height:306px;">
-					
 				</iframe>
 			</div>
 		</div>
@@ -23,21 +22,8 @@ permalink: /support/
 				<p>&nbsp;</p>
 				<p>&nbsp;</p>
 				<h3 class="title font-weight-bold mb-3">Version History - iPad</h3>
-				<iframe src="/updateinfoipad.html" style="border: 1px green solid; border-color: #545d51; border-radius: 7px; overflow:hidden; width:120%; height:100px;"></iframe>
+				<iframe src="/updateinfoipad.html" style="border: 1px green solid; border-color: #545d51; border-radius: 7px; overflow:hidden; width:120%; height:230px;"></iframe>
 			</div>
-		</div>		<div class="row">
-			<div class="col-12">
-				<div class="features-img-wrapper text-center mb-5">
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<p>&nbsp;</p>
-					<img src="/images/iPadAnnounce.png" alt="features-img" width="520">
-			        <a href="https://apps.apple.com/us/app/13-20-sync-ipad/id1463342762?ls=1" target="_blank" class="app-btn-top mt-3 mt-md-0">
-		            <img src="/images/AppStoreButtonStateNormal.png" alt="img-back">
-		            <img src="/images/AppStoreButtonStateHover.png" class="app-btn-top-hover" alt="img-front">
-			        </a>	
-		        </div>
-			</div>
-		</div>
+		</div>		
 	</div>
 </section>
