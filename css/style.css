@@ -155,6 +155,10 @@ body {
   font-size: 28px;
 }
 
+.top-section .features-to-explore-section strong {
+  color: #CE8E27;
+}
+
 .top-section .features-to-explore-section .features-img-wrapper img {
   max-width: 696px;
 }
