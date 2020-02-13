@@ -5,7 +5,6 @@ icon_alt_text: "13:20:Sync iPhone App Feature : Calendar"
 screenshots: "/images/FeatureCalendarScreenshot.png"
 title: Calendar
 description: >
-  <p>This is your main <strong>Dreamspell Calendar Dashboard</strong> with all the details you need to stay in sync. Tzolkin, Wavespells, Destiny Oracle, and the daily affirmation to meditate for every day.
-  <br /><strong>Calculate the Kin on any date.</strong></p>
-  <p>Many layers that highlight different aspects or add functionality. With <strong>total integration of the 13 Moon Calendar</strong>.</p>
+  <p>Your <strong>Dreamspell Calendar Dashboard</strong> with all the details you need to stay in sync: Tzolkin, 13 Moon Calendar, and the daily affirmation to meditate. Displayed along our Gregorian calendar so you can <strong>calculate the Kin on any date.</strong></p>
+  <p><strong>Many layers</strong> that highlight different aspects or add functionality.</p>
 ---

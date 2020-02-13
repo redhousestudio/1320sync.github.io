@@ -134,6 +134,12 @@ body {
   line-height: 1.3;
 }
 
+.top-section .two-col-section .two-col-text strong {
+  color: #545d51;
+  font-size: 21px;
+  line-height: 1.4;
+}
+
 .top-section .two-col-section .two-col-bottom-message {
   font-family: 'Kalam', cursive;
   font-size: 40px;
@@ -157,6 +163,11 @@ body {
 
 .top-section .features-to-explore-section strong {
   color: #CE8E27;
+}
+
+.top-section .features-to-explore-section em {
+  font-size: 15px;
+  font-weight: normal;
 }
 
 .top-section .features-to-explore-section .features-img-wrapper img {
@@ -188,6 +199,19 @@ body {
 .top-section .features-to-explore-section .app-btn-top:hover .app-btn-top-hover {
   display: inline;
 }
+
+/* --- */
+
+.top-section .features-to-explore-section .text .link {
+ text-decoration: underline;
+ color: #B57D21;
+}
+
+.top-section .features-to-explore-section .text .link:hover {
+  text-decoration: none;
+ color: #f5a623;
+}
+
 
 /* --- */
 .message-section {
