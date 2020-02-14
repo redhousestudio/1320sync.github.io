@@ -4,3 +4,5 @@ Heel licht groen: A2A99E (nav inactive)
 
 Donker orange: B57D21
 Lichter orange for strong: CE8E27
+
+Heel licht orange voor hover over link: f5a623

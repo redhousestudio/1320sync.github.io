@@ -200,16 +200,22 @@ body {
   display: inline;
 }
 
-/* --- */
+.top-section .features-to-explore-section .platforms {
+  background-color: rgba(228, 227, 227, 0.4);
+}
 
-.top-section .features-to-explore-section .text .link {
+.top-section .features-to-explore-section .platforms .text {
+ font-stretch: extra-expanded;
+}
+
+.top-section .features-to-explore-section .platforms .text .link {
  text-decoration: underline;
  color: #B57D21;
 }
 
-.top-section .features-to-explore-section .text .link:hover {
+.top-section .features-to-explore-section .platforms .text .link:hover {
   text-decoration: none;
- color: #f5a623;
+  color: #f5a623;
 }
 
 
@@ -347,7 +353,7 @@ body {
 
 .support-main-section .text .link:hover {
   text-decoration: none;
- color: #f5a623;
+  color: #f5a623;
 }
 
 .support-main-section .app-btn-top {
