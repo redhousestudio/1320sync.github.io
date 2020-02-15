@@ -147,7 +147,7 @@ body {
 }
 
 .top-section .two-col-section .two-col-bottom-subtext {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 
@@ -202,6 +202,7 @@ body {
 }
 
 .top-section .features-to-explore-section .platforms {
+  padding-top: 20px;
   background-color: rgba(228, 227, 227, 0.4);
 }
 
