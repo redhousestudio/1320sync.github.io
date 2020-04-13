@@ -111,10 +111,10 @@ body {
   background-image: url("/images/bg-home-section-top-all-mobile.png");
   background-repeat: no-repeat;
   background-size: 100%;
+  width: 502px;
   height: 381px;
   margin: 0 auto;
   position: relative;
-  width: 502px;
 }
 
 #iphone-video .i-video {

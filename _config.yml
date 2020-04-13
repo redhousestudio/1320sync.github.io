@@ -8,7 +8,7 @@ url                      : "https://www.1320sync.com/"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : ""
 destination              : "../1320syncwebsite"
-markdown: kramdown
+markdown                 : kramdown
 plugins:
   - jekyll-feed
 
