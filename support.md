@@ -18,7 +18,7 @@ permalink: /support/
 				<p>&nbsp;</p>
 				<p>&nbsp;</p>
 				<h3 class="title font-weight-bold mb-3">Version History - <em>iPhone</em></h3>
-				<p class="text mb-4">We are proud to say this app was <strong>first released on 3 aug 2010</strong> and is stil frequently updated with new features and fixes.<br />Here's the full list:</p>
+				<p class="text mb-4">We are proud to say this app was <strong>first released on 3 aug 2010</strong> and is still frequently updated with new features and fixes.<br />Here's the full list:</p>
 				<iframe src="/updateinfo.html" style="border: 1px green solid; border-color: #545d51; border-radius: 7px; overflow:hidden; width:100%; height:306px;">
 				</iframe>
 			</div>
